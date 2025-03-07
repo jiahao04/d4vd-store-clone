@@ -1,5 +1,4 @@
-Replicating d4vd Store with only bootstrap, no css allowed
-
-Notes: 
-- Didnt develop entire web
-- Didnt change font styte
+Replicated d4vd Store
+With bootstrap, no css allowed
+Didnt develop entire web
+Didnt change font styte
