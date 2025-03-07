@@ -6,3 +6,5 @@ With bootstrap, no css allowed
 Didnt develop entire web
 
 Didnt change font styte
+
+Will update readme.
