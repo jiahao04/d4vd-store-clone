@@ -11,7 +11,7 @@ This is a **replication** of the [d4vd Official Store](https://shop.d4vd.io/) us
 
 ## Preview
 
-![Preview Image](https://via.placeholder.com/800x400?text=d4vd+Store+Clone)
+![Preview Image](![image](https://github.com/user-attachments/assets/e2ec2cca-9dd7-4fab-9b0b-fa13b0f6d98a))
 
 ## Features
 
