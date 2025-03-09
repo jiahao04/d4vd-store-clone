@@ -17,6 +17,7 @@
     <video autoplay muted loop class="z-n1 position-fixed w-100 min-vh-100 object-fit-cover">
         <source src="files/d61cfbae8659437cacdd8cd586f23116.mp4" type="video/mp4">
     </video>
+
     <header class="row fixed-top">
         <div class="col-2">
             <a href="index.html"><img class="img-fluid" src="files/d4vdlogo.avif" alt="d4vdlogo"></a>
@@ -29,11 +30,11 @@
                     <b class="fs-5">COLLECTIONS</b>
                 </button>
                 <ul class="dropdown-menu bg-dark">
-                    <li><a class="dropdown-item text-danger" href="#"><b>WHITHERED</b></a></li>
-                    <li><a class="dropdown-item text-danger" href="#"><b>THE LOST PETALS
+                    <li><a class="dropdown-item text-danger" href="merch.html"><b>WHITHERED</b></a></li>
+                    <li><a class="dropdown-item text-danger" href="merch.html"><b>THE LOST PETALS
                                 COLLECTION</b></a></li>
-                    <li><a class="dropdown-item text-danger" href="#"><b>IT4MI COLLECTION</b></a></li>
-                    <li><a class="dropdown-item text-danger" href="#"><b>MY
+                    <li><a class="dropdown-item text-danger" href="merch.html"><b>IT4MI COLLECTION</b></a></li>
+                    <li><a class="dropdown-item text-danger" href="merch.html"><b>MY
                                 HOUSE IS
                                 NOT A HOME TOUR COLLECTION</b></a></li>
                 </ul>
@@ -44,33 +45,45 @@
                     <b class="fs-5">MERCH</b>
                 </button>
                 <ul class="dropdown-menu bg-dark">
-                    <li><a class="dropdown-item text-danger" href="#">TOPS</a></li>
-                    <li><a class="dropdown-item text-danger" href="#">BOTTOMS</a></li>
-                    <li><a class="dropdown-item text-danger" href="#">ACCESSORIES</a></li>
-                    <li><a class="dropdown-item text-danger" href="#">ALL
-                            MERCH</a></li>
+                    <li><a class="dropdown-item text-danger" href="merch.html"><b>TOPS</b></a></li>
+                    <li><a class="dropdown-item text-danger" href="merch.html"><b>BOTTOMS</b></a></li>
+                    <li><a class="dropdown-item text-danger" href="merch.html"><b>ACCESSORIES</b></a></li>
+                    <li><a class="dropdown-item text-danger" href="merch.html"><b>ALL
+                                MERCH</b></a></li>
                 </ul>
             </div>
-            <a class="text-black link-underline link-underline-opacity-0" href="#"><b
+            <a class="text-black link-underline link-underline-opacity-0" href="merch.html"><b
                     class="fs-5 text-danger">MUSIC</b></a>
             <a class="text-black link-underline link-underline-opacity-0" href="tour.html"><b
                     class="fs-5 text-danger">TOUR</b></a>
         </div>
         <div class="col-1"></div>
         <div class="col d-flex align-items-center justify-content-end">
-            <a class="text-danger link-light" data-bs-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample">
+            <a class="text-danger link-light" data-bs-toggle="collapse" href="#collapseSearch" role="button"
+                aria-expanded="false" aria-controls="collapseSearch">
                 <i class="bi bi-search fs-2 mx-1"></i></a>
-            <a href="#" class="text-danger link-light"><i class="bi bi-person fs-1 mx-1"></i></a>
-            <a href="#" class="text-danger link-light"><i class="bi bi-cart3 fs-2 mx-1 me-5"></i></a>
+            <a href="login.html" class="text-danger link-light"><i class="bi bi-person fs-1 mx-1"></i></a>
+            <a href="#" class="text-danger link-light" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas">
+                <i class="bi bi-cart3 fs-2 mx-1 me-5"></i>
+            </a>
         </div>
-        <div class="collapse " id="collapseExample">
+        <div class="collapse " id="collapseSearch">
             <div class="row bg-black py-5 d-flex justify-content-center">
                 <div class="w-50 ms-2 d-flex py-2 justify-content-center border border-danger">
                     <input type="text" class="w-50 ms-2 border-0 bg-transparent text-danger flex-grow-1"
                         placeholder="SEARCH" style="outline: none; ">
                     <i class="bi bi-search text-danger" style="cursor: pointer;"></i>
                 </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end text-white g-0 border-black border-2 w-auto" tabindex="-1" id="cartOffcanvas">
+            <div class="offcanvas-header bg-danger">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body bg-danger d-flex flex-column justify-content-center text-center">
+                <h3 class="fw-bold">Your cart is empty</h3>
+                <p class="fw-bold">TIME TO FILL UP THE CART</p>
+                <a href="#" class="btn btn-light text-black fw-bold rounded-0 w-auto mx-auto">CONTINUE SHOPPING</a>
             </div>
         </div>
 

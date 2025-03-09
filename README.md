@@ -1,10 +1,37 @@
-### Replicated d4vd Store 
-https://shop.d4vd.io/
+# d4vd Store Clone
 
-With bootstrap, no css allowed
+![Bootstrap](https://img.shields.io/badge/Styled%20With-Bootstrap-blue) ![HTML](https://img.shields.io/badge/Built%20With-HTML-orange)
 
-Didnt develop entire web
+This is a **replication** of the [d4vd Official Store](https://shop.d4vd.io/) using only **HTML and Bootstrap**. The project aims to mimic the structure and styling of the store while following these constraints:
 
-Didnt change font styte
+- **No additional CSS** was used—only Bootstrap utilities.
+- **Not a full clone**—only key pages were replicated (e.g., one product page template for all items).
+- **Bootstrap colors** were used instead of exact color matches.
+- **Default HTML font** was used (no custom fonts).
 
-Will update readme.
+## Preview
+
+![Preview Image](https://via.placeholder.com/800x400?text=d4vd+Store+Clone)
+
+## Features
+
+- Responsive design using Bootstrap's grid system.
+- Simple, structured HTML without extra frameworks.
+- Minimal but effective layout focusing on store essentials.
+
+## Installation & Usage
+
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/jiahao04/d4vd-store-clone.git
+   ```
+2. Open `index.html` in your browser.
+
+## Disclaimer
+
+This project is for **educational purposes only**. It is a personal exercise in web replication and does not aim to infringe on any copyrights.
+
+---
+
+🔗 [Visit the Original Store](https://shop.d4vd.io/)
+
