@@ -34,7 +34,7 @@ This project is for **educational purposes only**. It is a personal exercise in 
 
 ## Bootstrap Components Explanation
 
-Explanation of every single Bootstrap element used in the creation of this page. (components-explanation.md)
+Explanation of every single Bootstrap element used in the creation of this page. [Components Explanation](components-explanation.md)
 
 ---
 
